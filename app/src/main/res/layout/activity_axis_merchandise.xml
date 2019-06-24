@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_chat_main_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".AxisMerchandiseActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative1_merchandise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_merchandise"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_merchandise"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/appLabel_merchandise"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/random5"
+                    android:src="@drawable/random5">
+
+                </ImageView>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Marchandise_college"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_merchandise"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:fontFamily="cursive"
+            android:text="Axis Merchandise"
+            android:textColor="#FFFFFF"
+            android:textSize="53dp" />
+
+
+        <LinearLayout
+            android:id="@+id/linear2_merchandise"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/Marchandise_college"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2_merchandise"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/appLabel2_merchandise"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/random31">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/PriceTag1"
+                    android:textSize="30dp"
+                    android:text="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/Dollar"
+                    android:textSize="30dp"
+                    android:text="$"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear3_merchandise"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/linear2_merchandise"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3_merchandise"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/appLabel3_merchandise"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/random32">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/PriceTag2"
+                    android:textSize="30dp"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/Dollar2"
+                    android:textSize="30dp"
+                    android:text="$"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear4_merchandise"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/linear3_merchandise"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view4_merchandise"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/appLabel4_merchandise"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/random33">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/PriceTag3"
+                    android:textSize="30dp"
+                    android:text="6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/Dollar3"
+                    android:textSize="30dp"
+                    android:text="$"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstblog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".FirstBlogActivity">
+
+    <RelativeLayout
+        android:id="@+id/firstblogrelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/notesneighbourlabelfirstblog"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/random5" />
+
+        <TextView
+            android:id="@+id/firstblogTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/notesneighbourlabelfirstblog"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:text="Life Story of Steve Jobs"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:id="@+id/linear8firstblog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstblogTopic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view8firstblog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/appLabel8firstblog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/random13" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/stevejobhistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:fontFamily="cursive"
+            android:layout_below="@id/linear8firstblog"
+            android:text="@string/first_blog_content" />
+        <Button
+            android:id="@+id/ReadForMefirst"
+            android:background="#FFFF00"
+            android:textSize="25dp"
+            android:text="Please Read For Me"
+            android:layout_margin="15dp"
+            android:layout_below="@id/stevejobhistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</ScrollView>

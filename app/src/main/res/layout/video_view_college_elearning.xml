@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/videoviewcollegeelearning"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".CollegeElearningActivity">
+    <WebView
+        android:layout_margin="15dp"
+        android:id="@+id/collegeelearningwebview1"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"/>
+
+
+</LinearLayout>

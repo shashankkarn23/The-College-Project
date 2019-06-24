@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".SecondPage">
+
+    <RelativeLayout
+        android:id="@+id/secondpagerelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/notesneighbourlabelsecondpage"
+            android:src="@drawable/random5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+        <WebView
+            android:id="@+id/webviewsecondpage1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/notesneighbourlabelsecondpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button1secondpage"
+            android:text="Upload Notes/ Blogs"
+            android:textSize="23dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/webviewsecondpage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button2secondpage"
+            android:text="Share your College Event"
+            android:textSize="23dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/button1secondpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

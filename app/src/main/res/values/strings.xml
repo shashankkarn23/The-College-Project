@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TCD3</string>
+    <string name="first_blog_content">Steven Jobs was born February 24, 1955, in San Francisco, California, and was adopted by Paul and Clara Jobs. He grew up with one sister, Patty. Paul Jobs was a machinist and fixed cars as a hobby. Jobs remembers his father as being very skilled at working with his hands.
+
+In 1961 the family moved to Mountain View, California. This area, just south of Palo Alto, California, was becoming a center for electronics. Electronics form the basic elements of devices such as radios, televisions, stereos, and computers. At that time people started to refer to the area as "Silicon Valley." This is because a substance called silicon is used in the manufacturing of electronic parts.
+
+As a child, Jobs preferred doing things by himself. He swam competitively, but was not interested in team sports or other group activities. He showed an early interest in electronics and gadgetry. He spent a lot of time working in the garage workshop of a neighbor who worked at Hewlett-Packard, an electronics manufacturer.
+
+Jobs also enrolled in the Hewlett-Packard Explorer Club. There he saw engineers demonstrate new products, and he saw his first computer at the age of twelve. He was very impressed, and knew right away that he wanted to work with computers.
+
+While in high school Jobs attended lectures at the Hewlett-Packard plant. On one occasion he boldly asked William Hewlett (1931–2001), the president, for some parts he needed to complete a class project. Hewlett was so impressed he gave Jobs the parts, and offered him a summer internship at Hewlett-Packard.
+
+</string>
+
+    <string name="Slider_text_content_first">All the students are hereby informed that day to day attendance is being uploaded on AKTU ERP. The students may get detained also by the university in case of low attendance.
+Hence the students are advised to attend all the classes in order to avoid any problems in future.
+In case of any problem like detainment etc., the whole sole responsibility will be of students only
+
+</string>
+
+    <string name="DAA_Notes_Desc">Hii guys my name is shivansh Dubey I am pursuing B.tech from Axis Institute of Technology
+        and Management. I am a C.S.E 3rd year student, and I think these notes are very help full for those students who starts study at the semester end. These are the notes of D.A.A(Design Analysis and Algorithms) as per A.K.T.U Syllabus.
+
+</string>
+
+    <string name="DBMS_Notes_Desc">Hii guys my name is Shreya Tiwari I am pursuing B.tech from Axis Institute of Technology and Management. I am a C.S.E 3rd year student, and I think these notes are very help full for those students who starts study at the semester end.
+        These are the notes of D.B.M.S(Data Base Management System) as per A.K.T.U Syllabus.
+
+</string>
+    <string name="Notes_by_adarsh">Hii guys my name is Adarsh Pratap Singh Chauhan I am pursuing B.tech from Axis Institute of Technology and Management.
+        I am a C.S.E 3rd year student.I am sharing the notes of Software Testing and Audit, and I think these notes are very help full for the backbenchers.
+        These are the notes of S.T.A(Software Testing and Audit) as per A.K.T.U Syllabus.
+    </string>
+</resources>

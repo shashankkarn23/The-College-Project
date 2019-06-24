@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collegegallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".CollegeGalleryActivity">
+
+    <RelativeLayout
+        android:id="@+id/collegegalleryrelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/notesneighbourlabelcollegegallery"
+            android:src="@drawable/random5"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+        <TextView
+            android:id="@+id/collegegalleryTextView"
+            android:layout_below="@id/notesneighbourlabelcollegegallery"
+            android:textSize="65dp"
+            android:fontFamily="cursive"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:text="College Gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view9collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/collegegalleryTextView"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabel9collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random17" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view10collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view9collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe20collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random18" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view11collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view10collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe21collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random19" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view12collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view11collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe22collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random20" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view13collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view12collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe23collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random21" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view14collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view13collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe24collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random22" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view15collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view14collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe25collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random23" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view16collegegallery"
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_view15collegegallery"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/appLabe26collegegallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/random24" />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>

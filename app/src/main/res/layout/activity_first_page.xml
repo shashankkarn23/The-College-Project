@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".FirstPage">
+
+<RelativeLayout
+    android:id="@+id/firstpagerelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/notesneighbourlabel"
+        android:src="@drawable/random5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp" />
+    <TextView
+        android:id="@+id/subjectnotes"
+        android:textSize="55dp"
+        android:layout_below="@+id/notesneighbourlabel"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="12dp"
+        android:text="Subject Notes"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectnotes"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/random25" />
+    <TextView
+        android:id="@+id/daaTextView"
+        android:fontFamily="serif"
+        android:textSize="28dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageview1"
+        android:text="D.A.A (Design Analysis of Algorithms)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/daaDescTextView"
+        android:fontFamily="cursive"
+        android:textSize="24dp"
+        android:textColor="#FFF000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/daaTextView"
+        android:text="@string/DAA_Notes_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonfirst"
+        android:text="Know More/ Downaload"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/daaDescTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:src="@drawable/random26"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/buttonfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/dbmsTextView"
+        android:fontFamily="serif"
+        android:textSize="28dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageview2"
+        android:text="D.B.M.S (Database Management System)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/dbmsDescTextView"
+        android:fontFamily="cursive"
+        android:textSize="24dp"
+        android:textColor="#FFF000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dbmsTextView"
+        android:text="@string/DBMS_Notes_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/buttonsecond"
+        android:text="Know More/ Downaload"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/dbmsDescTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageview3"
+        android:src="@drawable/random27"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/buttonsecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/STATextView"
+        android:fontFamily="serif"
+        android:textSize="28dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageview3"
+        android:text="S.T.A (Software Testing and Audit)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/STADescTextView"
+        android:fontFamily="cursive"
+        android:textSize="24dp"
+        android:textColor="#FFF000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/STATextView"
+        android:text="@string/Notes_by_adarsh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonthird"
+        android:text="Know More/ Downaload"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/STADescTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/knowmoredownloadfirst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbars="vertical"
+    tools:context=".KnowMoreDownloadFirst">
+
+    <RelativeLayout
+        android:id="@+id/knowmoredownloadfirstrelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/knowmoredownloadfirstnotesneighbourlabel"
+            android:src="@drawable/random5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+    <WebView
+        android:id="@+id/webviewKnowMore"
+        android:layout_below="@+id/knowmoredownloadfirstnotesneighbourlabel"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/knowmoredownloadfirstbtn1"
+        android:textSize="22dp"
+        android:background="#ff0000"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="15dp"
+        android:text="DOWNLOAD UNIT 1 and 2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/webviewKnowMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/knowmoredownloadfirstbtn2"
+        android:textSize="22dp"
+        android:background="#ff0000"
+        android:text="DOWNLOAD UNIT 3 and 4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/webviewKnowMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/knowmoredownloadfirstbtn3"
+        android:textSize="22dp"
+        android:background="#ff0000"
+        android:text="DOWNLOAD UNIT 5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/knowmoredownloadfirstbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>
